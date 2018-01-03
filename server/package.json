@@ -1,0 +1,16 @@
+{
+  "name": "vuex-poc-server",
+  "version": "1.0.0",
+  "description": "Simple server for vuex POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mongoimport": "mongoimport --db vuex-poc --collection products --drop --file products.json --jsonArray"
+  },
+  "author": "Anastasiya Pryvalava",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  }
+}
